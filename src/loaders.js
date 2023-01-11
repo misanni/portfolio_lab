@@ -1,6 +1,6 @@
 // BASE URL OF OUR DEPLOYED API
 // BASE URL OF OUR DEPLOYED API
-const URL = "http://localhost:4000"
+const URL = "https://onestbackend.onrender.com"
 
 export const projectsLoader = async () => {
     const response = await fetch(URL + "/projects")
